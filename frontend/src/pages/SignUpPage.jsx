@@ -81,6 +81,7 @@ const SignUpPage = () => {
               <label className="label">
                 <span className="label-text font-medium">Password</span>
               </label>
+              <div className='relative'>
                 <input
                   type={showPassword ? "text" : "password"}
                   className={`input input-bordered w-full pl-4`}
@@ -99,6 +100,7 @@ const SignUpPage = () => {
                     <Eye className="size-5 text-base-content/40" />
                   )}
                 </button>
+                </div>
             </div>
              
             <button type="submit" className="btn btn-primary w-full" disabled={isSigningUp}>
